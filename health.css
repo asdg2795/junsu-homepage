@@ -1,0 +1,40 @@
+.center-health {
+    margin: 15px;
+}
+
+
+.center-date {
+    border: 1px solid hsl(30, 4%, 91%);
+    padding: 13px;
+    margin-bottom: 13px;
+    display: flex;   
+}
+
+
+.center-date-today {
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.center-health-box {
+    width: 600px; height: 380px;
+    overflow: auto;
+    text-align: center;
+}
+
+.center-health-date{
+    text-align: center;
+}
+
+.center-health-intro {
+    border: 1px solid #e8e7e6;
+    padding: 22px;
+    margin-bottom: 21px;
+}
+
+
+.center-health-ment {
+    text-align: center;
+    margin-top: 15px;
+}

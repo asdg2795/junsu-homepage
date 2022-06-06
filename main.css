@@ -1,0 +1,128 @@
+body{
+    background-image: url('./images/과제1.png');
+    background-size: 100px;
+    background-color: rgb(160, 160, 160);
+    height: 100%;
+  }
+  
+  
+  .bookcover{
+    background-color : #bfdae2;
+    border-radius: 10px;
+    border: 1px solid #6d777a;
+    width: 1000px;
+    height: 700px;
+    margin: 100px auto;
+  }
+  
+  
+  .bookdot{
+    display: flex;
+    border-color : white;
+    border-width: 3px;
+    width:970px;
+    height:670px;
+    border-style: dashed;
+    margin: 12px auto;
+    border-radius: 10px;
+  }
+  
+  
+  .page{
+    background-color : gainsboro;
+    border-radius: 10px;
+    width: 950px;
+    height: 650px;
+    margin: 10px auto;
+    display: flex;
+  }
+  
+  .gym{
+      color:red;
+  }
+
+  /*왼쪽*/
+  .left-container {
+    background-color: gainsboro;
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .left-title{
+    flex: 0.1;
+    background-color: gainsboro;
+    text-align: center;
+  }
+  
+  
+  .left-box {
+    flex: 1;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  
+  /*중간*/
+  .center-container{
+    background-color: gainsboro;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  
+ 
+ 
+  
+  .center-title{
+    flex: 0.1;
+    background-color: gainsboro;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  
+  .center-box{
+    flex: 1;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  /*오른쪽*/
+  .right-container{
+    background-color: gainsboro;
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    margin: 15px 15px 15px 0px;
+  }
+
+  .right-menu {
+    position: relative;
+    top: 50px;
+    width : 100px
+  }
+
+
+.right-menu div {
+    background: #3a81a3;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #5c77b6;
+    border-radius: 0 5px 5px 0;
+  }
+
+
+.right-menu div:hover {
+    background: #5c77b6;
+  }
+
+  
+a{
+  text-decoration: none;
+}

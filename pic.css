@@ -1,0 +1,50 @@
+.center-pic {
+    width: 600px; height: 550px;
+    margin: 12px;
+    overflow: auto;
+}
+
+
+.center-pic-box {
+    margin-bottom: 40px;
+}
+
+
+.center-pic-title {
+    background: #e8e7e6;
+    padding: 10px 16px;
+}
+
+
+.center-pic-ment {
+    margin: 0 14px;
+}
+
+
+.center-pic-img1 {
+    width: 420px; height: 245px;
+    text-align: center;
+    margin: 15px 14px 19px;
+    display: inline-block;
+}
+
+
+.center-pic-img2 {
+    width: 420px; height: 315px;
+    text-align: center;
+    margin: 15px 14px 19px;
+    display: inline-block;
+}
+
+
+.center-pic-img3 {
+    width: 420px; height: 280px;
+    text-align: center;
+    margin: 15px 14px 19px;
+    display: inline-block;
+}
+
+
+.center-pic-img1 img, .center-pic-img2 img, .center-pic-img3 img {
+    width: 550px; height: 500px;
+}
